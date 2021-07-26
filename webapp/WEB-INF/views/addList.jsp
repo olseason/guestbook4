@@ -8,7 +8,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-  <form action="/guestbook3/add" method="post">
+  <form action="/guestbook4/add" method="post">
     <table border="1" width="550">
       <tr>
         <td>이름</td>
@@ -35,7 +35,7 @@
           <td>${gList.no}</td>
           <td>${gList.name}</td>
           <td>${gList.reg_date}</td>
-          <td><a href="/guestbook3/deleteForm/${gList.no}">삭제</a></td>
+          <td><a href="/guestbook4/deleteForm/${gList.no}">삭제</a></td>
         </tr>
         <tr>
           <td colspan="4">${gList.content}</td>

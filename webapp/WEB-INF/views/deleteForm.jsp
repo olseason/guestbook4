@@ -8,13 +8,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action="/guestbook3/delete" method="post">
+	<form action="/guestbook4/delete" method="post">
 		<label>비밀번호</label>
 		<input type="password" name="pw" value="">
 		<button type="submit">확인</button>
 		<input type="hidden" name="no" value="${no}">
 	</form>
 
-	<a href="/guestbook3/addList">메인으로 돌아가기</a>
+	<a href="/guestbook4/addList">메인으로 돌아가기</a>
 </body>
 </html>
